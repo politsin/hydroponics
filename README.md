@@ -48,7 +48,7 @@ $coefs = [
   "c" => 14657,
 ];
 // Инициализация класса с уже известными коэффициентами.
-$ecCalc = new Hydroponics\EcCalibrate($r0, $uRefб $coefs);
+$ecCalc = new Hydroponics\EcCalibrate($r0, $uRef, $coefs);
 // Текущее измеренное напряжение.
 $u = 1800;
 // Переводим напряжение в EC.
