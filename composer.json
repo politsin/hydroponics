@@ -1,0 +1,20 @@
+{
+    "name": "politsin/hydroponics",
+    "description": "hydroponics utility",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hydroponics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anatoly Politsin",
+            "email": "politsin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
